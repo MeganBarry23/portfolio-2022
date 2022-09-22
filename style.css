@@ -17,6 +17,11 @@
 @import url('xtext-stroke.css');
 @import url('stroke-shadow.css');
 @import url('scroll-to-top.css');
+@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,200;0,400;0,600;1,400;1,600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@200;300;400;600&display=swap');
+
+
+
+
 /*
 
 X-Small devices (portrait phones, less than 576px) 
@@ -60,8 +65,8 @@ html {
   --hyperlink-color: #333;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: "Staatliches", cursive;
+  --body-typeface: "Roboto Condensed", sans-serif;
+  --heading-typeface: "Roboto Slab", cursive;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
   --baby-powder: #fefefa;
@@ -584,4 +589,4 @@ p {
     body {
       background: var(--color-lightest);
     }
-  }
+  }}
