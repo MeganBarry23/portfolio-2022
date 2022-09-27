@@ -7,14 +7,12 @@
   }
   
   .shadow {
-    text-shadow: 6px 6px #db2777;
+    text-shadow: 6px 6px #603976;
   }
   
   .stroke-shadow {
     color: #fef3c7;
-    text-shadow: -2px 0 #111827, 0 -2px #111827, 2px 0 #111827, 0 2px #111827,
-      2px 2px #111827, -2px -2px #111827, -2px 2px #111827, 2px -2px #111827,
-      6px 6px #db2777;
+    text-shadow: 3px 3px #603976;
   }
   
   .halftone {

@@ -66,7 +66,7 @@ html {
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: "Roboto Condensed", sans-serif;
-  --heading-typeface: "Roboto Slab", cursive;
+  --heading-typeface: "Roboto Slab", sans-serif;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
   --baby-powder: #fefefa;
@@ -74,7 +74,7 @@ html {
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
   --background-color: #f5f5f5;
-  --alt-background-color: black;
+  --alt-background-color:#f5f5f5;
   --text-selection-background-color: #555;
   --base-color: 0;
   --color-lightest: hsla(var(--base-color), 1%, 85%, 100%);
@@ -246,10 +246,7 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  /* background: rgb(238, 174, 202);
-  background: radial-gradient(circle,
-      rgba(238, 174, 202, 1) 0%,
-      rgba(148, 187, 233, 1) 100%); */
+  background: rgb(234, 177, 121);
 }
 
 .branding-navigation {
@@ -372,7 +369,7 @@ p {
 .project-aside {
   width: 100%;
   color: white;
-  background: orangered;
+  background: rgb(96, 74, 110);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -405,10 +402,6 @@ p {
 /* Main Project Image Area */
 .project-details {
   width: 100%;
-  background-image: linear-gradient(-225deg,
-      #ff057c 0%,
-      #8d0b93 50%,
-      #321575 100%);
   padding: 1rem;
 }
 
@@ -449,21 +442,21 @@ p {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   body {
-    background: var(--color-darkest);
+    background: white;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   body {
-    background: var(--color-dark);
+    background: white;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   body {
-    background: var(--color-normal);
+    background: white;
   }
 
   h1 {
@@ -580,13 +573,13 @@ p {
   /* X-Large devices (large desktops, 1200px and up)*/
   @media (min-width: 1200px) {
     body {
-      background: var(--color-light);
+      background: white;
     }
   }
 
   /* XX-Large devices (larger desktops, 1400px and up) */
   @media (min-width: 1400px) {
     body {
-      background: var(--color-lightest);
+      background: white;
     }
   }}
